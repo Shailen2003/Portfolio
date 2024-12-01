@@ -638,8 +638,16 @@ margin:15px  0;
     flex: 0 0 100%;
     max-width: 100%;
   }
-  .home .home-img{
-    display: none;
+  .home-img::before{
+    top: 125px;
+  }
+  .home .home-img img{
+    height: 157px;
+    margin-top: 150px;
+  }
+  .home .home-img::after{
+    right: -6px;
+    bottom: 261px;
   }
 }
 @media (max-width: 767px){
